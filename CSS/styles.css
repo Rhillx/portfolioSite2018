@@ -1,16 +1,16 @@
 body {
     font: 400 1em/1.5 "Neuton";
     background: #090d00;
-    color: rgba(255, 255, 255, .25);
+    color: #f16b26;
     text-align: center;
-    margin: 0;r
+    margin: 0;
 }
 
 p {
     text-transform: uppercase;
     letter-spacing: .5em;
     display: inline-block;
-    border: 4px double rgba(255, 255, 255, .25);
+    border: 4px double #f16b26;
     border-width: 4px 0;
     padding: 1.5em 0em;
     position: absolute;
@@ -18,10 +18,13 @@ p {
     left: 50%;
     width: 40em;
     margin: 0 0 0 -20em;
+    text-align: center;
+    font-weight: bolder;
 }
 
 span {
         font: 700 4em/1 "Oswald", sans-serif;
+        font-family:'Poppins',sans-serif !important;
         letter-spacing: 0;
         padding: .25em 0 .325em;
         display: block;
@@ -46,7 +49,7 @@ span {
     background-size: 100%;
     min-height: 1000px;
     background-repeat: no-repeat;
-    color: white;
+    color: #f16b26;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 
@@ -56,15 +59,32 @@ span {
 
 .about{
     background-color: #dfdfdf;
-    min-height: 350px;
+    min-height: 450px;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 60px;
+    
 
 }
 .about h5{
     font-weight: lighter;
     color: #666666;
+    padding-top: 25px;
 
+}
+.about-icon{
+    background-color: #257583;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-icon:hover{
+    background-color: #f16b26;
+    color: #666666;
 }
 
 /* Portfolio section */
